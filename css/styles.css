@@ -66,3 +66,35 @@ footer {
     background: #3A3A3A;
     color: #ffffff;
 }
+
+nav {
+    background: #1A1A1A;
+    padding: 10px 0;
+}
+
+nav ul {
+    display: flex; 
+    justify-content: center; 
+}
+
+nav ul li {
+    margin: 0 20px;
+}
+
+nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    padding: 5px 10px;
+    border-radius: 5px; 
+    transition: background 0.3s;
+}
+
+nav ul li a:hover {
+    background: #3A3A3A; 
+}
+
+ul {
+    list-style-type: none; 
+    padding: 0;           
+    margin: 0;            
+}
